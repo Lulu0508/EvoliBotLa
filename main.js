@@ -125,4 +125,4 @@ client.on("message", (message) => {
 
 
 
-client.login(config.bottoken)
+client.login(process.env.token)
